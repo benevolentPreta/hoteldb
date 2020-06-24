@@ -9,9 +9,9 @@ import datetime
 app = Flask(__name__)
 
 #Config MySQL
-app.config['MYSQL_HOST'] = 'hotel-reservation.co39u2dnzsgv.us-east-1.rds.amazonaws.com'
-app.config['MYSQL_USER'] = 'benchmate'
-app.config['MYSQL_PASSWORD'] = '||benchMATE||'
+app.config['MYSQL_HOST'] = ''
+app.config['MYSQL_USER'] = ''
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'HOTELDB'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor' #this config line returns queries we execute as dictionaries, default is to return as a tuple; ex. User Login
 #init MYSQL
